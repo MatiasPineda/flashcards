@@ -23,6 +23,7 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'users',
     'flashcards_app',
+    'crispy_forms',
 ]
 
 AUTHENTICATION_BACKENDS = (

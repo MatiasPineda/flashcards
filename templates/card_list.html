@@ -5,7 +5,7 @@
     <div class="row">
         <div><h1>{{ deck.name }} card list</h1></div>
         <div style="margin: 6px">
-            <button href="{% url 'card_create' deck.id %}" class="btn btn-success btn-sm">Add card</button>
+            <a href="{% url 'card_create' deck.id %}" class="btn btn-success btn-sm">Add card</a>
         </div>
     </div>
     {% if card_list.count == 0 %}
